@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 import Header from './Header'
 import Footer from './Footer'
 import Posts from './Posts'
+
+import Cupcake from './Cupcake'
 
 
 
@@ -11,7 +14,7 @@ function App (props) {
     <div className="container">
       <Header />
       <div className="blogcontainer">
-        <Posts />
+      <Posts />
       </div>
       <Footer />
     </div>

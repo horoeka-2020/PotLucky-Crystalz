@@ -1,7 +1,7 @@
 import React from 'react'
 import Cupcake from '../../data/cupcake'
 
-function Cupcake () {
+function CupcakeFunction () {
   return (
     <div className="recipes">
       <h2>{cupcake.name}</h2>
@@ -23,4 +23,4 @@ function Cupcake () {
   )
 }
 
-export default Cupcake
+export default CupcakeFunction
