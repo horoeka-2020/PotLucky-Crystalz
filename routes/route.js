@@ -2,9 +2,10 @@ const express = require('express')
 
 const router = express.Router()
 
-router.get('/', (req, res) => {
-// db.getBlogPosts()
-    .then((recipes) => {
+const data = require('../data/recipes')
+
+router.get('/recipes/:id', (req, res) => {
+  req.then((recipes) => {
       return res.status(200).json(recipes)
     })
     .catch(err => {
