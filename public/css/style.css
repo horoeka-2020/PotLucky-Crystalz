@@ -2,12 +2,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Shadows Into Light Two', cursive;
+  background-color: #cfd760;
 }
 
-h2 {
-  opacity: 0.8;
-  color: #598234;
+h1 {
+  color: #165e00;
 }
 
 .container {

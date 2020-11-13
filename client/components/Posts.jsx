@@ -11,8 +11,8 @@ function Posts () {
     <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cupcakes_0-86b99b4.jpg?quality=90&webp=true&resize=300,272"
+      className=""
+      src="./images/cupcake.jpg"
       alt="First slide"
       
 
@@ -24,8 +24,8 @@ function Posts () {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://savorysweetlife.com/wp-content/uploads/2013/06/Lemon-Mint-Garbanzo-Bean-Salad.jpg"
+      className=""
+      src="./images/chickpea.jpg"
       alt="Second slide"
       
 
@@ -38,8 +38,8 @@ function Posts () {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://www.wearesovegan.com/wp-content/uploads/2019/01/SV_SausageRollsGreggs_Header2-1170x1645.jpg"
+      className=""
+      src="./images/sossie.jpg"
       alt="Third slide"
     />
 
